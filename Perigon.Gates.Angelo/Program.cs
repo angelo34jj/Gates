@@ -52,7 +52,7 @@ namespace Perigon.Gates.Angelo
 
             int bottomStart = (int)Math.Pow(2, depth);
 
-            for (int i=1; i<=16; i++) // assuming 16 balls
+            for (int i=1; i<=15; i++) // assuming 15 balls
             {
                 int currentGate = 1;
                 for (int gate=1; gate <= depth; gate++)
